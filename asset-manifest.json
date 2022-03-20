@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Lyrics-app/static/css/main.451e5513.css",
-    "main.js": "/Lyrics-app/static/js/main.2815f399.js",
+    "main.js": "/Lyrics-app/static/js/main.908e6c56.js",
     "static/media/spiny.gif": "/Lyrics-app/static/media/spiny.f235a9091e23a90b6d99.gif",
     "index.html": "/Lyrics-app/index.html",
     "main.451e5513.css.map": "/Lyrics-app/static/css/main.451e5513.css.map",
-    "main.2815f399.js.map": "/Lyrics-app/static/js/main.2815f399.js.map"
+    "main.908e6c56.js.map": "/Lyrics-app/static/js/main.908e6c56.js.map"
   },
   "entrypoints": [
     "static/css/main.451e5513.css",
-    "static/js/main.2815f399.js"
+    "static/js/main.908e6c56.js"
   ]
 }
