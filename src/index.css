@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: 
+  url("https://wallpaperforu.com/wp-content/uploads/2021/08/Wallpaper-Brown-Acoustic-Guitar-Musical-Background-Music132048x1152.jpg");
+  /* https://cdn.wallpapersafari.com/69/85/yK9ag3.jpg */
+  /*https://free4kwallpapers.com/uploads/originals/2020/07/19/night-city-k-wallpaper.jpg
+  https://res.cloudinary.com/practicaldev/image/fetch/s--vqF9LVka--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://images.unsplash.com/photo-1545193544-312983719627%3Fixlib%3Drb-1.2.1%26ixid%3DeyJhcHBfaWQiOjEyMDd9%26auto%3Dformat%26fit%3Dcrop%26w%3D1650%26q%3D80*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.tt{
+  display: flex;
+  padding: 10px;
+  gap:40px;
+  align-items: center;
+}
+.think{
+  text-decoration: none;
+  color:white
+}
+.think:hover{
+  color:black;
+}
+.card-texty{
+  padding: 25px;
+  font-size: 19px;
+  background-color: black;
+/* rgb(167,96,42) */
+  color:  white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.content{
+  text-align: left;
+  align-items: center;
+
+}
+.card-bodyy{
+  padding: 10px;
+}
