@@ -31,6 +31,7 @@ export default function Tracks(props){
             setDetail({data:response.data});
                setLyr(response.data.sections[1].text);
               console.log(response.data.sections[1].text);
+              console.log(response.data)
               console.log(lyr);
           }).catch(function (error) {
               console.error(error);
@@ -72,7 +73,8 @@ export default function Tracks(props){
              <div>
              <ul className="list-group-item bg-black">
                  <li style={{color:'white',padding:'5px',listStyleType:'none',textAlign:'center'}} >
-                     <a style={{color:'white'}} target="_blank" href={detail.data.sections[2].youtubeurl.actions[0].uri}>Watch video on Youtube</a>
+                 <iframe id="player" type="text/html" width="640" height="390" src={detail.data.sections[2].youtubeurl.actions[0].uri} frameborder="0"></iframe>
+                 {/*<a style={{color:'white'}} target="_blank" href={detail.data.sections[2].youtubeurl.actions[0].uri}>Watch video on Youtube</a> */}
                  </li>
                  <li style={{color:'white',padding:'5px',listStyleType:'none',textAlign:'center'}}>
                      Music type : {detail.data.genres.primary?detail.data.genres.primary:'not found'}
