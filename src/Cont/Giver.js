@@ -11,11 +11,12 @@ const [state2,setState2]=useState([]);
     document.title = "LyricsFinder"
     const options = {
         method: 'GET',
-        url: 'https://shazam.p.rapidapi.com/songs/list-artist-top-tracks',
-        params: {id:'10100284', locale: 'en-US'},
+        url: 'https://shazam-api7.p.rapidapi.com/songs/list-recommendations',
+        params: {  id: '546651160',
+        limit: '50'},
         headers: {
-          'x-rapidapi-host': 'shazam.p.rapidapi.com',
-          'x-rapidapi-key': '96e7095bdcmsh50743819712fc6dp120c19jsnf6dfc8ed91f3'
+            'X-RapidAPI-Key': '595f09f727msh50fa8d147b97c40p164a56jsnd2bf5ff54799',
+            'X-RapidAPI-Host': 'shazam-api7.p.rapidapi.com'
         }
       }
       axios.request(options).then(function (response) {
